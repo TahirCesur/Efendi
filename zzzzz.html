@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Tahoma, Arial, sans-serif;
+            font-size: 15px;
+            margin: 0; /* Margin ekledim */
+            overflow: auto;
+        }
+
+        p {
+            margin-top: 0;
+        }
+
+        html {
+            overflow: auto;
+        }
+
+        body {
+            position: absolute;
+            top: 10px;
+            left: 20px;
+            bottom: 10px;
+            right: 0;
+            padding: 30px;
+            overflow-y: scroll;
+            overflow-x: hidden;
+        }
+
+        div {
+            height: 1000px;
+        }
+
+        /* Scrollbar Styling */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background-color: #ebebeb;
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            border-radius: 10px;
+            background: #6d6d6d;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Note this only works for webkit browsers (Chrome and Safari). Here's how you make your own custom scrollbar...</p>
+        <ol>
+            <li>Set html to overflow: auto</li>
+            <li>Set body to overflow-y: scroll</li>
+            <li>Create a div with a height larger than the window (just for testing)</li>
+            <li>Set a width for ::-webkit-scrollbar</li>
+            <li>Set a background-color for ::-webkit-scrollbar-track</li>
+            <li>Set a background-color for ::-webkit-scrollbar-thumb</li>
+        </ol>
+        <p>Optional: Put a border-radius on the scrollbar and track for a nicer look</p>
+    </div>
+</body>
+</html>

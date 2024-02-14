@@ -3109,7 +3109,7 @@ input[type="submit"].btn-block {
 .dropdown-item-text {
   display: block;
   padding: 0.25rem 1.5rem;
-  color: #bfa87b;
+  color: rgb(210, 180, 102);
 }
 .btn-group,
 .btn-group-vertical {
@@ -15728,7 +15728,7 @@ a.text-dark:hover {
   width: 40px;
   font-size: 0;
   overflow: hidden;
-  background-color: #bfa87b;
+  background-color: rgb(210, 180, 102);
   color: #000;
   border-radius: 50%;
   border: none;
@@ -15739,7 +15739,7 @@ a.text-dark:hover {
 .slick-prev:hover,
 .slick-next:hover {
   background-color: #000;
-  color: #bfa87b!important;
+  color: rgb(210, 180, 102)!important;
 }
 .slick-prev {
   left: -45px;
@@ -15757,7 +15757,7 @@ a.text-dark:hover {
 }
 .slick-prev:hover:before,
 .slick-next:hover:before {
-  color: #bfa87b;
+  color: rgb(210, 180, 102);
 }
 .slick-next:before {
   content: "\e649";
